@@ -2,20 +2,56 @@
 <html lang="ko" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Home</title>
+    <style>
+      body{margin:0;}
+      a{tect-decoration:none;}
+      h1{font-size:45px;
+      text-align:center;
+    border-bottom: 1px solid gray;
+  margin:0;
+  padding:20px;
+}
+ol{
+  border-right:1px solid gray;
+  width: 150px;
+  margin:0;
+  padding:20px;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 200px
+  1fr;
+}
+#grid ol{
+  padding-left:33px;
+}
+#grid #main_text{
+  padding-left: 25px;
+}
+    </style>
+
   </head>
   <body>
-    <h1 style="text-align:center;">Repository by <a href="https://github.com/jyj0816" style="color:black; text-decoration:none;" title="깃허브 페이지로 연결">amovoam</a></h1>
-<hr>
-    <p style="text-align:center;">This page is just a personal repository of tags and attributes of HTML learned while studying the WEB.
+    <h1>Repository by <a href="https://github.com/jyj0816" style="color:black; text-decoration:none;" title="깃허브 페이지로 연결">amovoam</a></h1>
+<div id="grid">
+<ol style="list-style-tpe:demical" start="0">
+  <li><a href="attributes.html" style="text-decoration:none;" title="기본 속성">html_attributes</a></li>
+  <li><a href="headings.html" title="웹페이지 제목">html_headings</a></li>
+  <li><a href="headings.html" title="웹페이지 제목">html_paragraphs</a></li>
+  <li><a href="headings.html" title="웹페이지 제목">html_styles</a></li>
+  <li><a href="headings.html" title="웹페이지 제목">html_formatting</a></li>
+  <li><a href="headings.html" title="웹페이지 제목">html_quotations</a></li>
+  <li><a href="headings.html" title="웹페이지 제목">html_comments</a></li>
+  <li><a href="headings.html"  title="웹페이지 제목">html_css</a></li>
+  <li><a href="headings.html"  title="웹페이지 제목">html_links</a></li>
+  <li><a href="headings.html"  title="웹페이지 제목">html_images</a></li>
+</ol>
+<div id="main_text">
+    <p>This page is just a personal repository of tags and attributes of HTML learned while studying the WEB.
        Thanks for visiting my WEB.</p>
-       <p style="text-align:center;"> If you want to watch my html codes or more things, click my github name "amovoam" that is on the WEB head and visit my github page </p>
-       <hr>
-    <a href="attributes.html" style="text-decoration:none;" title="기본 속성">0_html_attributes</a>
-    <br>
-    <br>
-    <a href="headings.html" style="text-decoration:none;" title="웹페이지 제목">1_html_headings</a>
-    <br>
-    <br>
-  </body>
+       <p> If you want to watch my html codes or more things, click my github name "amovoam" that is on the WEB head and visit my github page </p>
+
+</div>
+</div>  </body>
 </html>
